@@ -31,11 +31,11 @@ class Amazon_Search_TListenser {
 	def sampleBeforeTestCase() {
 		WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 		
-		WebUI.setText(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/input_email'), 'nitheeshaboggavarapu@gmail.com')
+		WebUI.setText(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/input_email'), 'aavula.manaswini@gmail.com')
 		
 		WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/inputcontinue'))
 		
-		WebUI.setEncryptedText(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/input_password'), 'nRJItQ52hW9bpRr794Hihg==')
+		WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/input_password'), '1cxiDIZt/iCDemiTQt5m4Q==')
 		
 		WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/inputsignInSubmit'))
 		//println testCaseContext.getTestCaseId()
